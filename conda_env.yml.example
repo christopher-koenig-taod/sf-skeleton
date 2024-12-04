@@ -1,0 +1,20 @@
+name:
+channels:
+  - defaults
+dependencies:
+  - pyarrow
+  - snowflake-ml-python
+  - ipykernel
+  - snowflake-snowpark-python
+  - python=3.11
+  - statsmodels
+  - matplotlib
+  - openpyxl
+  - streamlit
+  - pip
+  - conda-forge::u8darts
+variables:
+  SNOWFLAKE_ACCOUNT:
+  SNOWFLAKE_WAREHOUSE:
+  SNOWFLAKE_USER: 
+  SNOWFLAKE_PASSWORD: 

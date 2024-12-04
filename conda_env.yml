@@ -1,0 +1,15 @@
+name:
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - snowflake-snowpark-python
+  - snowflake-ml-python
+  - statsmodels
+  - pyarrow
+variables:
+  SNOWFLAKE_ACCOUNT: 
+  SNOWFLAKE_WAREHOUSE: 
+  SNOWFLAKE_USER: 
+  SNOWFLAKE_PASSWORD: 
